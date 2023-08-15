@@ -26,7 +26,7 @@ function App() {
 
       <Divisor
         url={
-          "https://c.pxhere.com/images/b3/dd/5be747f89840a4c3c64db3d8fa23-1571981.jpg!d"
+          "https://c.pxhere.com/images/09/19/390170c640a9bac95fd19bcb68e7-1455425.jpg!d"
         }
         alto={300}
       />
