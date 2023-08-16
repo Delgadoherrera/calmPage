@@ -16,9 +16,9 @@ export default function App() {
 
   return (
     <header>
-      <MDBNavbar expand="lg" light bgColor="white">
+      <MDBNavbar expand="lg" light bgColor="white" id={"Inicio"}>
         <MDBContainer fluid>
-     {/*      <MDBNavbarToggler
+          {/*      <MDBNavbarToggler
             onClick={() => setShowBasic(!showBasic)}
             aria-controls="navbarExample01"
             aria-expanded="false"

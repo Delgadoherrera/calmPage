@@ -1,22 +1,22 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 const initialState = {
-  isOpened: false,
+  formReducer: {},
 };
 
 const dataReducer = createSlice({
   name: "counter",
   initialState,
   reducers: {
-    isOpen: (state, action) => {
+    formValue: (state, action) => {
       console.log("action payload is open", action.payload);
-      state.isOpened = action.payload;
+      state.formReducer = action.payload;
     },
   },
 });
 
-export const { isOpen } = dataReducer.actions;
+export const { formValue } = dataReducer.actions;
 
-export const openModal = (state) => state.counter.isOpened;
+export const formAction = (state) => state.counter.formReducer;
 
 export default dataReducer.reducer;
