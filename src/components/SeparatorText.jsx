@@ -32,9 +32,9 @@ export default function App({ text, tittle }) {
         <div className="d-flex justify-content-center align-items-center h-100">
           <div className="text-black">
             <h1 className="mb-3">{tittle}</h1>
-            <MDBBtn tag="a" outline size="lg">
+            {/*   <MDBBtn tag="a" outline size="lg">
               {text}
-            </MDBBtn>
+            </MDBBtn> */}
           </div>
         </div>
       </div>

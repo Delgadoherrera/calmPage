@@ -5,8 +5,10 @@ import Header from "./components/Header";
 import NavBar from "./components/NavBar";
 import SeparatorText from "./components/SeparatorText";
 import CardServices from "./components/CardServices";
+import CasaSegura from "./components/CasaSegura";
 import QuienesSomos from "./components/QuienesSomos";
 import Divisor from "./components/Divisor";
+import FormPostulate from "./components/FormPostulate";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
 
       <SeparatorText tittle={"Servicios"} text={"Contactanos"} />
       <CardServices />
+      <SeparatorText tittle={"Casa segura"} text={"Contactanos"} />
+      <CasaSegura />
 
       <Divisor
         url={
@@ -31,6 +35,7 @@ function App() {
         alto={300}
       />
       <SeparatorText tittle={"Postulate"} text={"Cargar solicitud"} />
+      <FormPostulate />
 
       <Footer />
     </MDBContainer>
