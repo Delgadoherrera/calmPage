@@ -62,7 +62,7 @@ export default function App() {
               <h1 className="mb-3"> CALM</h1>
               <h4 className="mb-3">Internación domiciliaria</h4>
               <MDBBtn tag="a" outline size="lg">
-                Ver mas
+                Contactanos
               </MDBBtn>
             </div>
           </div>

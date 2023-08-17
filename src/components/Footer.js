@@ -46,16 +46,15 @@ export default function App() {
                 Calm atencion domiciliaria SRL
               </h6>
               <p>
-                Calm atencion domiciliaria SRL Calm atencion domiciliaria SRL
-                Calm atencion domiciliaria SRL Calm atencion domiciliaria SRL
-                Calm atencion domiciliaria SRL Calm atencion domiciliaria SRL
+                Mas de 30 años de experiencia en el area de salud. Estamos
+                preparados para cuidarte.
               </p>
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Servicios</h6>
               <p>
-                <a href="#!" className="text-reset">
+                <a href="#Servicios" className="text-reset">
                   Servicios
                 </a>
               </p>
@@ -80,24 +79,24 @@ export default function App() {
               <h6 className="text-uppercase fw-bold mb-4">Postulaciones</h6>
               <p>
                 <a href="#!" className="text-reset">
-                  Pricing
+                  Aplicar
                 </a>
               </p>
               <p>
                 <a href="#!" className="text-reset">
-                  Settings
+                  Recomendar
                 </a>
               </p>
               <p>
                 <a href="#!" className="text-reset">
-                  Orders
+                  Contactar
                 </a>
               </p>
-              <p>
+              {/*    <p>
                 <a href="#!" className="text-reset">
                   Help
                 </a>
-              </p>
+              </p> */}
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
@@ -108,13 +107,13 @@ export default function App() {
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
-                info@calm.com
+                contacto@calmhc.com
               </p>
               <p>
-                <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
+                <MDBIcon icon="phone" className="me-3" /> +54 11 3095-0404
               </p>
               <p>
-                <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
+                <MDBIcon icon="print" className="me-3" /> @CalmHC
               </p>
             </MDBCol>
           </MDBRow>
@@ -127,7 +126,7 @@ export default function App() {
       >
         © 2023 Copyright:
         <a className="text-reset fw-bold" href="https://calmhc.com/">
-          calm.com
+          calmhc.com
         </a>
       </div>
     </MDBFooter>

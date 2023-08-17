@@ -21,7 +21,7 @@ export default function App() {
       <MDBNavbar
         expand="lg"
         style={{
-          backgroundColor: "white",
+          backgroundColor: "rgb(151, 178, 211)",
           position: "fixed",
           width: "100%",
           zIndex: "9999",

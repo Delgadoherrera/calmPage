@@ -60,7 +60,7 @@ export default function App() {
             <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">
                 <MDBIcon icon="gem" className="me-3" />
-                Remodelaciones{" "}
+                Remodelaciones
               </h6>
               <p>
                 Asesoramiento Médico Especializado para adecuar la vivienda de
@@ -82,14 +82,13 @@ export default function App() {
                 Área contratista
               </h6>
               <p>
-                En el caso que así lo desee, contamos con personal que ejecuta
-                la remodelación de casas o departamentos , adecuándolas a las
-                necesidades del paciente en tratamiento. Materiales seguros y de
-                excelente calidad , profesionales especializados en el área en
-                concordancia con el personal médico le aseguran desde el inicio,
-                diseño, construcción y equipamiento según necesidades
-                personalizadas , realizando en el menor tiempo posible y con la
-                mejor calidad, las mejoras solicitadas
+                Personal que ejecuta la remodelación de casas o departamentos ,
+                adecuándolas a las necesidades del paciente en tratamiento.
+                Materiales seguros y de excelente calidad , profesionales
+                especializados en el área en concordancia con el personal médico
+                le aseguran desde el inicio, diseño, construcción y equipamiento
+                según necesidades personalizadas , realizando en el menor tiempo
+                posible y con la mejor calidad, las mejoras solicitadas
               </p>
             </MDBCol>
           </MDBRow>

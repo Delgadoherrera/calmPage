@@ -53,11 +53,10 @@ export default function App() {
                 Misión
               </h6>
               <p>
-                Dar atención personalizada, continua y eficiente, haciendo foco
-                en el SER HUMANO permanentemente en un espacio de mutuo respeto
-                y colaboración. Nuestro lema es: “Queremos acompañarlo a
-                transitar diferentes etapas de la vida, porque sentimos pasión
-                por lo que hacemos”
+                Brindar atención personalizada, continua y eficiente, haciendo
+                foco en la persona, proponiendo un espacio de mutuo respeto y
+                colaboración. Queremos acompañarlo a transitar diferentes etapas
+                de la vida, porque sentimos pasión por lo que hacemos.
               </p>
             </MDBCol>
 
@@ -68,11 +67,10 @@ export default function App() {
               </h6>
               <p>
                 Ser el grupo humano de profesionales que elija para usted o su
-                familia, sabiendo que se aplica calidez humana, calidad mediante
-                mejora continua de técnicas, conocimientos y sustentabilidad en
-                el universo de salud. Ser una empresa boutique, donde no importe
-                el volumen de pacientes a atender, solo la calidad de servicios
-                y cuidados aportados
+                familia y brindar un servicio de alta calidad mediante mejora
+                continua de técnicas y conocimientos en en el área de salud. Ser
+                una empresa boutique, donde solo importe la calidad de servicios
+                y cuidados aportados.
               </p>
             </MDBCol>
             <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
@@ -81,12 +79,12 @@ export default function App() {
                 Valores
               </h6>
               <p>
-                Valoramos la actitud de servicio, por lo tanto, lo aplicamos a
-                cada persona, como estilo de vida. Aún los problemas sencillos
-                los incorporamos para ser resueltos, por eso la capacitación
-                continua, de los profesionales y del familiar (incorporado al
-                equipo de atención) lo consideramos imprescindibles para una
-                respuesta inmediata
+                Valoramos la predisposición a brindar un servicio de cuidado
+                como estilo de vida. Aún los problemas sencillos los
+                incorporamos para ser resueltos, por eso la capacitación
+                continua de los profesionales y del familiar (incorporado al
+                equipo de atención) lo consideramos imprescindibles para un
+                servicio de excelencia.
               </p>
             </MDBCol>
           </MDBRow>

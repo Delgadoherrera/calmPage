@@ -49,7 +49,7 @@ export default function App() {
                 Especialistas de todas las áreas lo atenderán en forma
                 presencial o por telemedicina; es el ofrecimiento de servicios
                 médicos a distancia, utilizando para ello tecnologías de
-                información y comunicación.
+                información y telecomunicación.
               </p>
             </MDBCol>
 
@@ -73,7 +73,7 @@ export default function App() {
               </h6>
               <p>
                 Además de dedicarse a rehabilitar pacientes con problemas
-                motrices o de movimiento corporal, la necesidad del tratamientos
+                motrices o de movimiento corporal, la necesidad de tratamientos
                 por problemas respiratorios que estamos transitando colocan en
                 un rol de relevancia a estos profesionales. La concertación de
                 acciones en conjunto con otras del equipo es llevada a cabo por
