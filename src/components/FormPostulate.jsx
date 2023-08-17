@@ -11,13 +11,13 @@ import { useState, useEffect } from "react";
 import { formValue as dForm } from "./dataReducer/dataReducer";
 import { useSelector, useDispatch } from "react-redux";
 import Alert from "@mui/material/Alert";
-
+import axios from "axios";
 export default function App() {
   const [formValue, setFormValue] = useState({
     fname: "",
     lname: "",
     email: "",
-    file: "",
+    file: null,
     phone: "",
     presentacion: "",
   });
@@ -36,12 +36,45 @@ export default function App() {
     event.preventDefault();
     console.log(event);
     console.log("formValueformValue", formValue);
-    setShowSucces(true);
-
+    sendData();
     dispatch(dForm(formValue));
   };
   const onChange = (e) => {
-    setFormValue({ ...formValue, [e.target.name]: e.target.value });
+    if (e.target.name === "file") {
+      const selectedFile = e.target.files[0];
+      if (selectedFile instanceof Blob) {
+        const reader = new FileReader();
+
+        reader.onload = (event) => {
+          setFormValue({ ...formValue, file: event.target.result });
+        };
+
+        reader.readAsDataURL(selectedFile);
+      } else {
+        console.error("Selected file is not a valid Blob.");
+      }
+    } else {
+      setFormValue({ ...formValue, [e.target.name]: e.target.value });
+    }
+  };
+
+  const sendData = async () => {
+    try {
+      const response = await axios.post(
+        "https://backend.missingpets.art/send-email",
+        formValue
+      );
+      console.log("Response from server:", response.data);
+      console.log(response.status);
+      if (response.status === 200) {
+        setShowSucces(true);
+      }
+
+      // Aquí puedes manejar la respuesta del servidor, mostrar mensajes, redirigir, etc.
+    } catch (error) {
+      console.error("Error:", error);
+      // Maneja el error, muestra un mensaje de error, etc.
+    }
   };
 
   return (
@@ -107,12 +140,12 @@ export default function App() {
         label=""
         onChange={onChange}
         name="file"
+        accept=".pdf" // Asegura que solo se seleccionen archivos PDF
       />
       <MDBCheckbox
         wrapperClass="d-flex justify-content-center mb-4"
         id="form6Example8"
         label="Acepto enviar mis datos"
-        defaultChecked
         required
       />
       <MDBBtn

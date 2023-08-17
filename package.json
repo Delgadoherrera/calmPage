@@ -9,6 +9,7 @@
     "@fontsource/roboto": "^5.0.8",
     "@mui/material": "^5.14.5",
     "@reduxjs/toolkit": "^1.9.5",
+    "axios": "^1.4.0",
     "mdb-react-ui-kit": "6.2.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",

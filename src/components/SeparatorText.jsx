@@ -17,7 +17,7 @@ export default function App({ text, tittle }) {
 
   return (
     <header>
-      <div className="d-flex" style={{ height: 10 }} id={tittle}>
+      <div className="d-flex" style={{ height: 1 }} id={tittle}>
         <div className="vr"></div>
       </div>
 
@@ -31,9 +31,7 @@ export default function App({ text, tittle }) {
       >
         <div className="d-flex justify-content-center align-items-center h-100">
           <div className="text-black">
-            <h1 className="mb-3">
-              {tittle}
-            </h1>
+            <h1 className="mb-3">{tittle}</h1>
             {/*   <MDBBtn tag="a" outline size="lg">
               {text}
             </MDBBtn> */}
